@@ -15,6 +15,12 @@ public class Insertion_Sort {
             }
         }
     }
+    
+    public static void displayresult(int[] arr){
+        for (int i : arr) {
+            System.out.print(i+" ");
+        }
+    }
 
     // Used to swap ith and jth elements of array
     public static void swap(int[] arr, int i, int j){
